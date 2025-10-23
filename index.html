@@ -22,7 +22,32 @@
     <link href="files/jumbotron.css" rel="stylesheet">
     <script src="js/main.js"></script>
     <script src="js/scroll.js"></script>
-    <title>Jingdong Zhang</title>
+    <title>Yu-Tao Liu</title>
+    <style>
+        /* The CSS is usually placed in a <style> block or an external file */
+        .clamp-text {
+            /* Core multi-line ellipsis properties */
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3; /* Set the limit to 3 lines */
+            overflow: hidden;
+            /* text-overflow: ellipsis; is not needed here, as -webkit-line-clamp handles the ellipsis */
+        }
+
+        .less-important {
+            /* Changes the font style to italic */
+            font-style: italic; 
+            
+            /* Makes the text thinner (lighter) */
+            /* Use a numerical value like 300, 200, or 100 if the font supports it */
+            font-weight: 100; 
+            
+            /* Optional: Make the text lighter gray for less emphasis */
+            color: #888;
+
+            font-size: small;
+        }
+    </style>
 </head>
 
 
@@ -31,9 +56,9 @@
     <div class="container">
         <h3 id="Home" style="padding-top: 80px; margin-top: -80px;"></h3>
     </div>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="Home">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-secondary" id="Home">
         <div class="container">
-            <a class="navbar-brand" href="#Home">Jingdong Zhang (张靖东)</a>
+            <a class="navbar-brand" href="#Home">Yu-Tao Liu </a>
 
             <div class="collapse navbar-collapse" id="navbarToggle">
                 <ul class="navbar-nav ml-auto">
@@ -58,19 +83,70 @@
 
             <div class="col-md-8">
                 <br>
-                <p> I am currently a second-year Ph.D. student majoring in Computer Science at <a href="https://www.tamu.edu/index.html" target="_blank"> Texas A&M University </a>, 
+                <p> 
+                    Hi! Welcome to <a href="https://lagwein-who.github.io/" target="_blank">Yu-Tao Liu</a>'s homepage. 
+                </p>
+                <p>
+                    I am currently a first-year Ph.D. student 
+                    in the <a href="https://www.tamu.edu/index.html" target="_blank">Aggie Graphics Group</a> 
+                    at <a href="https://www.tamu.edu/index.html" target="_blank"> Texas A&M University </a> 
+                    (supervisor: Prof. <a href="https://scholar.google.com/citations?user=28shvv0AAAAJ&hl=en" target="_blank"> Wenping Wang</a> 
+                    and Prof. <a href="https://people.tamu.edu/~xinli/" target="_blank">Xin Li</a>). 
+                    I received my master's degree in computer science 
+                    from the <a href="http://english.ict.cas.cn/" target="_blank">Institute of Computing Technology</a>, 
+                    <a href="https://www.ucas.edu.cn/" target="_blank">University of Chinese Academy of Sciences</a>  
+                    (supervisor: Prof. <a href="http://geometrylearning.com/" target="_blank">Lin Gao</a>), 
+                    and my bachelor's degree in mathematics
+                    from the <a href="https://www.ucas.edu.cn/" target="_blank">University of Chinese Academy of Sciences</a> 
+                    (supervisor: Prof. <a href="http://www.mmrc.iss.ac.cn/~xhjia/" target="_blank">Xiaohong Jia</a>). 
+                    <!-- I am currently a second-year Ph.D. student majoring in Computer Science at <a href="https://www.tamu.edu/index.html" target="_blank"> Texas A&M University </a>, 
 			and my advisors are Prof. <a href="https://scholar.google.com/citations?user=28shvv0AAAAJ&hl=en" target="_blank">
 			Wenping Wang</a> and Prof. <a href="https://people.tamu.edu/~xinli/" target="_blank">Xin Li</a>. I received the Bachelor of Engineering degree at <a href="https://www.fudan.edu.cn/en/" target="_blank"> Fudan University </a> in 2023. 
 			I also worked as a research assistant at <a href="https://cse.hkust.edu.hk/" target="_blank">HKUST CSE</a> department with Prof. <a href="https://www.danxurgb.net/"
                         target="_blank">Dan Xu</a>. Previously, I have been working with Prof. <a href="http://www.it.fudan.edu.cn/En/Data/View/3012" target="_blank">Tao Chen</a> 
-			and Prof. <a href="https://scholar.google.com/citations?hl=zh-CN&user=gsLd2ccAAAAJ" target="_blank">Jiayuan Fan</a> at Fudan University.
-                </p>
-
-                <p> My research interests lie in computer vision and graphics. For computer graphics, I work on 3D asset generation and neural rendering. 
-			For computer vision, I work on representation learning and scene understanding especially under multi-tasking scenarios.
+			and Prof. <a href="https://scholar.google.com/citations?hl=zh-CN&user=gsLd2ccAAAAJ" target="_blank">Jiayuan Fan</a> at Fudan University. -->
                 </p>
 
                 <p>
+                    I previously worked as an algorithm research intern 
+                    at <a href="www.tripo3d.ai" target="_blank">VAST</a> 
+                    (supervisor: Dr. <a href="https://yanpei.me/", target="_blank">Yan-Pei Cao</a>). 
+                    Before that, I also had a great time collaborating closely with 
+                    Dr. <a href="https://chenweikai.github.io/" target="_blank">Weikai Chen</a>, 
+                    Dr. <a href="https://xmeng525.github.io/xiaoxumeng.github.io/" target="_blank">Xiaoxu Meng</a>, 
+                    and Dr. <a href="https://sites.google.com/site/boyanghome/home" target="_blank">Bo Yang</a> from Tencent America. 
+                </p>
+
+                <p> 
+                    My research interests lie in computer graphics, 3D vision, and geometry processing, 
+                    with a primary emphasis on addressing topology-related challenges with AI tools. 
+                </p>
+
+                <p>
+                <b>
+                    <!-- <font color="red"> -->
+                        I am actively seeking industrial internships or research collaborations over the next few years.
+                        I am particularly interested in projects that drive a significant positive impact, 
+                        advancing scientific knowledge while concurrently creating societal benefit by expanding people's choices and possibilities.
+                        Please feel free to contact me via email at
+                    <!-- </font> -->
+                    <font color="orange">
+                    <b>
+                        lagwein [at] tamu [dot] edu
+                    </b>
+                    </font>
+                    <!-- <font color="red"> -->
+                        .
+                    <!-- </font> -->
+                </b>
+                </p>
+
+                <!-- <p>
+                    Also, I'm always interest in discussing with people from different background.
+                    Feel free to drop me an email if you have any thoughts or inspiration to share. 
+                </p> -->
+
+                <!-- <p>
                     Email: jdzhang [at] tamu [dot] edu <br>
 		    Wechat: Triumph0929 <br>
                     <a href="https://openreview.net/profile?id=~Jingdong_Zhang2" target="_blank">OpenReview</a> /
@@ -78,128 +154,11 @@
 		    <a href="https://scholar.google.com/citations?user=bhcm3NEAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a> / 
  		    <a href="https://drive.google.com/file/d/1wCKM9wosuzSTlGWINfuFeb1m0sTNzOEM/view?usp=drive_link" target="_blank">CV</a> 
 			<br>
-                </p>
+                </p> -->
 
             </div>
         </div>
     </div><br>
-
-
-    <!-- News -->
-    <div class="container">
-        <h3 id="News" style="padding-top: 80px; margin-top: -80px;">News</h3>
-        <ul>
-            <!--
-			<li>
-				<font color="firebrick">[Upcoming]</font> Invited Talk at <b>Carnegie Mellon University</b>.
-			</li>
-			-->
-		<li> <b style="color: darkred;">Sep. 2025</b>: Actively looking for summer internship in 2026!</li>
-	    <li> <b>Aug. 2025</b>: SPGen has been accepted by SIGGRAPH Aisa 2025!</li>
-		<li> <b>May. 2025</b>: Start the research internship in Adobe!
-	    <li> <b>Jan. 2025</b>:  HiTTs has been accepted by ACM MM 2025!
-		<li> <b>Jan. 2025</b>:  BridgeNet has been accepted by TPAMI!
-            <li> <b>Jul. 2024</b>: I have been invited to serve as a reviewer for Pacific Graphics.
-	    <li> <b>May. 2024</b>: Start the research internship in Tecent America!
-            <li> <b>Nov. 2023</b>: I have been invited to serve as a reviewer for CVPR2024.
-	    <!-- <li> <b>Aug. 2023</b>: A co-authored paper has been accepted by TIP! -->
-	    <li> <b>Nov. 2022</b>: I have been invited to serve as a reviewer for CVPR2023.
-		<!-- <li> <b>Sep. 2022</b>: I am honored to won the third prize of Excellent Undergraduate Scholarship of Fudan University. -->
-	    <li> <b>Mar. 2022</b>: I have been invited to serve as a reviewer for ECCV2022.
-	    <li> <b>Nov. 2021</b>: I have been invited to serve as a reviewer for CVPR2022.
-		<!-- <li> <b>May. 2021</b>: I served as the team leader in Advanced Driving Assistance System (ADAS) National Competition, and our team won the first price! -->
-		<!-- <li> <b>Sep. 2020</b>: I am honored to won the second prize of Excellent Undergraduate Scholarship of Fudan University. -->
-        </ul>
-    </div><br><br>
-
-
-    <!-- Education -->
-    <div class="container">
-        <h3 id="Education" stype="padding-top: 80px; margin-top: -80px;">
-            Education
-        </h3>
-
-        <hr>
-
-        <div class="row">
-            <div class="col-md-3">
-                <a href="https://www.tamu.edu/index.html" target="_blank"><img class="img-fluid img-rounded"
-                        src="TAMU.png" alt=""></a>
-            </div>
-
-            <div class="col-md-9">
-                <b>
-                    <font color="black">Texas A&M University</font>
-                </b>
-                <br>
-                <!-- No. 220, Handan Road, Yangpu District, Shanghai, People's Republic of China<br> -->
-                Department of Computer Science and Engineering<br>
-		Ph.D Student<br>
-                Auguest 2023 - recent
-            </div>
-        </div>
-        <hr>
-
-	<div class="row">
-            <div class="col-md-3">
-                <a href="https://www.fudan.edu.cn/en/" target="_blank"><img class="img-fluid img-rounded"
-                        src="fudan.png" alt=""></a>
-            </div>
-
-            <div class="col-md-9">
-                <b>
-                    <font color="black">Fudan University</font>
-                </b>
-                <br>
-                Intelligent Science and Technology (excellent class), School of Information Science and Engineering<br>
-                Undergraduate Student<br>
-                September 2019 - June 2023, received the bachelor's degree in Jun 2023
-            </div>
-        </div>
-        <hr>
-    </div><br><br>
-
-    <!-- Internship -->
-    <div class="container">
-        <h3 id="Education" stype="padding-top: 80px; margin-top: -80px;">
-            Internship
-        </h3>
-
-        <hr>
-
-	<div class="row">
-            <div class="col-md-3">
-                <a href="https://www.tencent.com/en-us/about.html" target="_blank"><img class="img-fluid img-rounded"
-                        src="tencent_logo.jpg" alt=""></a>
-            </div>
-
-            <div class="col-md-9">
-                <b>
-                    <font color="black">Tencent America</font>
-                </b>
-		<br>
-                Research Intern, working on high-quality 3D asset generation.<br>
-                May 2024 - Aug 2024
-            </div>
-        </div>
-        <hr>
-	<div class="row">
-            <div class="col-md-3">
-                <a href="https://www.adobe.com/" target="_blank"><img class="img-fluid img-rounded"
-                        src="adobe_logo.jpg" alt=""></a>
-            </div>
-
-            <div class="col-md-9">
-                <b>
-                    <font color="black">Adobe</font>
-                </b>
-		<br>
-                Research Intern, working on generative soft inpainting.<br>
-                May 2025 - Aug 2025
-            </div>
-        </div>
-        <hr>
-    </div><br><br>
 
 
 
@@ -209,278 +168,279 @@
             Publications
         </h3>
 
-		<hr>
+
+        <hr>
             <div class="row">
                 <div class="col-md-3">
-                    <img class="img-fluid img-rounded" src="OmniClear_demo.gif" alt="">
+                    <img class="img-fluid img-rounded" src="legoace1.jpg" alt="">
                 </div>
                 <div class="col-md-9">
-					<!-- <a href="https://evergreen0929.github.io/" target="_blank"><b>Jingdong Zhang</b></a>,
-					<a href="https://chenweikai.github.io/" target="_blank">Weikai Chen</a>,
-                    <a href="https://liuyuan-pal.github.io/" target="_blank">Yuan Liu</a>,
-					<a href="https://shanemankiw.github.io/" target="_blank">Jionghao Wang</a>,
-					<a href="https://yzmblog.github.io/" target="_blank">Zhengming Yu</a>,
-                    <a href="https://mickshen7558.github.io/" target="_blank">Zhuowen Shen</a>,
-                    <a href="https://sites.google.com/site/boyanghome/home" target="_blank">Bo Yang</a>,
-		    		<a href="https://scholar.google.com/citations?user=28shvv0AAAAJ&hl=en" target="_blank">Wenping Wang</a>,
-					<a href="https://people.tamu.edu/~xinli/" target="_blank">Xin Li</a> -->
-                    <br>
                     <b>
-                        <font color="black"> OmniClear: Soft Effects Removal from Images within a Versatile Model</font>
+                        <a href="https://xh38.github.io/" target="_blank">
+                            <font color="black"> LegoACE: Autoregressive Construction Engine for Expressive LEGO Assemblies.</font></a>
                     </b><br>
-					<!-- <b><a href="https://asia.siggraph.org/2025/" target="_blank">SIGGRAPH Asia</a></b>, 2025 &nbsp&nbsp 
-					[<a href="https://arxiv.org/abs/2509.12721" target="_blank"> <i>arxiv</i> </a>] -->
+					<a href="https://xh38.github.io/" target="_blank">Hao Xu</a>,
+					<a href="https://zzzyuqing.github.io/" target="_blank">Yuqing Zhang</a>,
+					<a href="https://onethousandwu.com/" target="_blank">Yiqian Wu</a>,
+					<a href="https://zhengxinyang.github.io/" target="_blank">Xin-Yang Zheng</a>,
+					<a href="https://lagwein-who.github.io/" target="_blank"><b>Yu-Tao Liu</b></a>,
+					<a href="https://xjtang.com/" target="_blank">Xiangjun Tang</a>,
+					<a href="https://yhyang-myron.github.io/" target="_blank">Yunhan Yang</a>,
+					<a href="https://scholar.google.com/citations?user=Dqjnn0gAAAAJ&hl=en&oi=ao" target="_blank">Ding Liang</a>,
+					<a href="https://scholar.google.com/citations?user=sjFapgUAAAAJ&hl=en" target="_blank">Ying-Tian Liu</a>,
+					<a href="https://scholar.google.com/citations?user=b7ZJV9oAAAAJ&hl=en">Yuan-Chen Guo</a>,
+					<a href="https://yanpei.me/" target="_blank">Yan-Pei Cao*</a>,
+                    <a href="http://www.cad.zju.edu.cn/home/jin/" target="_blank">Xiaogang Jin*</a>
+                    <br>
+					<b>
+                        SIGGRAPH Asia 2025
+                    </b>
 					<br>
-			    	<i><b>Abstract:</b> We fine-tuned a powerful inpainting model on a large, curated dataset to create a single, 
-						versatile framework for robustly removing diverse soft effects (like lens flare, haze, shadows, and reflections) from digital images</i>
+			    	<a class="clamp-text">
+                        We propose LegoAce, an autoregressive construction engine for expressive LEGO assembly generation conditioned on text prompts or multi-view normal maps.
+                        By leveraging the sequential nature of LEGO assemblies, LegoAce implicitly learns connection relationships by modeling the conditional distribution of each brick’s position, orientation, and type based on previously placed bricks. 
+                    </a> 
                 </div>
             </div>
 
-        <hr>
+            <hr>
             <div class="row">
                 <div class="col-md-3">
-                    <img class="img-fluid img-rounded" src="representative_img.jpg" alt="">
+                    <img class="img-fluid img-rounded" src="neuframeq.jpg" alt="NeuFrame Thumbnail">
                 </div>
                 <div class="col-md-9">
-					<a href="https://evergreen0929.github.io/" target="_blank"><b>Jingdong Zhang</b></a>,
-					<a href="https://chenweikai.github.io/" target="_blank">Weikai Chen</a>,
-                    <a href="https://liuyuan-pal.github.io/" target="_blank">Yuan Liu</a>,
-					<a href="https://shanemankiw.github.io/" target="_blank">Jionghao Wang</a>,
-					<a href="https://yzmblog.github.io/" target="_blank">Zhengming Yu</a>,
-                    <a href="https://mickshen7558.github.io/" target="_blank">Zhuowen Shen</a>,
+                    <b>
+                        <a href="https://faculty.runi.ac.il/arik/site/NeuFrameQ.asp" target="_blank">
+                            <font color="black"> NeuFrameQ: Neural Frame Fields for Scalable and Generalizable Anisotropic Quadrangulation.</font></a>
+                    </b><br>
+                    <a href="https://scholar.google.com/citations?user=sjFapgUAAAAJ&hl=en" target="_blank">Ying-Tian Liu</a>,
+                    Jiajun Li,
+                    <a href="https://lagwein-who.github.io/" target="_blank"><b>Yu-Tao Liu</b></a>,
+                    <a href="https://xinyu-andy.github.io/" target="_blank">Xin Yu</a>,
+                    <a href="https://scholar.google.com/citations?user=b7ZJV9oAAAAJ&hl=en" target="_blank">Yuan-Chen Guo</a>,
+                    <a href="https://yanpei.me/" target="_blank">Yan-Pei Cao</a>,
+                    <a href="https://scholar.google.com/citations?user=Dqjnn0gAAAAJ&hl=en&oi=ao" target="_blank">Ding Liang</a>,
+                    <a href="https://scholar.google.com/citations?user=-q90a0EAAAAJ&hl=en" target="_blank">Ariel Shamir</a>,
+                    <a href="https://www.cs.tsinghua.edu.cn/csen/info/1307/4342.htm" target="_blank">Song-Hai Zhang</a>
+                    <br>
+                    <b>
+                        ICCV 2025 (Highlight)
+                    </b>
+                    <br>
+                    <p class="clamp-text">
+                        We introduce NeuFrameQ, a novel learning-based framework for scalable and generalizable mesh quadrangulation via frame field prediction. 
+                        We first create a large-scale dataset of high-quality quad meshes with various shapes to serve as priors of domain knowledge. 
+                        Empowered by this dataset, we employ a connectivity-agnostic learning approach that operates on point clouds with normals, enabling robust processing of complex mesh geometries. 
+                        By decomposing frame field prediction into direction regression and magnitude estimation tasks, we effectively handle the ill-posed nature in frame field estimation. 
+                        We also employ the polyvector representation and computing mechanism in both tasks to handle the inherent ambiguities in frame field representation. 
+                        Extensive experiments demonstrate that NeuFrameQ produces high-quality quad meshes with superior semantic alignment, also for geometries derived from neural fields. 
+                        Our method significantly advances the state of the art in automatic quad mesh generation, bridging the gap between neural content creation and production-ready geometric assets.
+                    </p>
+                </div>
+            </div>
+
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid img-rounded" src="pgtneus.jpg" alt="PGT-NeuS Thumbnail">
+                </div>
+                <div class="col-md-9">
+                    <b>
+                        <a href="https://ieeexplore.ieee.org/abstract/document/11097074" target="_blank">
+                            <font color="black"> PGT-NeuS: Progressive-Growing Tri-plane Representation for Neural Surface Reconstruction.</font></a>
+                    </b><br>
+                    Xue-Kun Xiang,
+                    <a href="http://people.geometrylearning.com/yyj/" target="_blank">Yu-Jie Yuan</a>,
+                    <a href="https://wbhu.github.io/" target="_blank">Wenbo Hu</a>,
+                    <a href="https://lagwein-who.github.io/" target="_blank"><b>Yu-Tao Liu</b></a>,
+                    <a href="https://scholar.google.com/citations?user=VG_cdLAAAAAJ&hl=en" target="_blank">Yuewen Ma</a>,
+                    <a href="http://geometrylearning.com/lin/" target="_blank">Lin Gao</a>
+                    <br>
+                    <b>
+                        TVCG 2025
+                    </b>
+                    <br>
+                    <a class="clamp-text">
+                        We propose a multi-resolution tri-plane feature encoding that leverages the detail reconstruction capabilities of high-resolution tri-plane while using the smoothness of low-resolution tri-plane to suppress high-frequency artifacts. Additionally, a progressive training strategy is introduced, gradually merging scene details from coarse to fine granularity, enhancing reconstruction quality while maintaining training stability and reducing difficulty. Furthermore, to address reconstruction challenges arising from sparse viewpoints and inconsistent lighting in image datasets, we introduce normal priors as supervision and propose consistency verification for multi-view normal priors, which assesses the accuracy of normal priors and effectively supervise the reconstructed surfaces. Moreover, we propose a perturbing and fine-tuning strategy on regions of unreliable normal priors to further improve the quality of geometric surface reconstruction.
+                    </a>
+                </div>
+            </div>
+
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid img-rounded" src="dreamudf.jpg" alt="DreamUDF Thumbnail">
+                </div>
+                <div class="col-md-9">
+                    <b>
+                        <a href="https://dl.acm.org/doi/10.1145/3687769" target="_blank">
+                            <font color="black"> DreamUDF: Generating Unsigned Distance Fields from A Single Image.</font></a>
+                    </b><br>
+                    <a href="https://lagwein-who.github.io/" target="_blank"><b>Yu-Tao Liu</b></a>,
+                    Xuan Gao,
+                    <a href="https://chenweikai.github.io/" target="_blank">Weikai Chen</a>,
+                    <a href="http://people.geometrylearning.com/~jieyang/" target="_blank">Jie Yang</a>,
+                    <a href="https://xmeng525.github.io/xiaoxumeng.github.io/" target="_blank">Xiaoxu Meng</a>,
                     <a href="https://sites.google.com/site/boyanghome/home" target="_blank">Bo Yang</a>,
-		    		<a href="https://scholar.google.com/citations?user=28shvv0AAAAJ&hl=en" target="_blank">Wenping Wang</a>,
-					<a href="https://people.tamu.edu/~xinli/" target="_blank">Xin Li</a>
+                    <a href="http://geometrylearning.com/lin/" target="_blank">Lin Gao</a>
                     <br>
                     <b>
-                        <font color="black"> SPGen: Spherical Projection as Consistent and Flexible Representation for Single Image 3D Shape Generation</font>
-                    </b><br>
-					<b><a href="https://asia.siggraph.org/2025/" target="_blank">SIGGRAPH Asia</a></b>, 2025 &nbsp&nbsp 
-					[<a href="https://arxiv.org/abs/2509.12721" target="_blank"> <i>arxiv</i> </a>]
-					<br>
-			    	<i><b>Abstract:</b> SPGen leverages Spherical Projection (SP) to generate high-quality 3D shapes with i）Consistency: SP maps ensure view-consistent and unambiguous 3D reconstruction, 
-				    ii) Flexibility: Supports arbitrary topologies, iii) Efficiency: Inherit powerful 2D diffusion priors and enables efficient finetuning.</i>
+                        SIGGRAPH Asia 2024 (ACM Transactions on Graphics)
+                    </b>
+                    <br>
+                    <a class="clamp-text">
+                        We present DreamUDF, a novel framework for generating high-quality 3D objects with arbitrary topologies from a single image. 
+                        To address the challenge of generating proper topology given sparse and ambiguous observations, we propose to incorporate both the data priors from a multi-view diffusion model and the geometry priors brought by an unsigned distance field (UDF) reconstructor.
+                        In particular, we leverage a joint framework that consists of 1) a generation module that produces a neural radiance field for photo-realistic renderings from arbitrary views; 
+                        and 2) a reconstruction module that distills the learnable radiance field into surfaces with arbitrary topologies. 
+                        We further introduce a field coupler that bridges the radiance field and UDF under a novel optimization scheme.
+                        This allows the two modules to mutually boost each other during training. 
+                    </a>
                 </div>
             </div>
 
-
-        <hr>
+            <hr>
             <div class="row">
                 <div class="col-md-3">
-                    <img class="img-fluid img-rounded" src="SolidGS.gif" alt="">
+                    <img class="img-fluid img-rounded" src="hsdf.jpg" alt="HSDF Thumbnail">
                 </div>
                 <div class="col-md-9">
-                    <a href="https://mickshen7558.github.io/" target="_blank">Zhuowen Shen</a>,
-                    <a href="https://liuyuan-pal.github.io/" target="_blank">Yuan Liu</a>,
-                    <a href="https://zhangchen8.github.io/" target="_blank">Zhang Chen</a>,
-                    <a href="https://sites.google.com/site/lizhong19900216/" target="_blank">Zhong Li</a>,
-                    <a href="https://jiepengwang.github.io/" target="_blank">Jiepeng Wang</a>,
-                    <a href="https://lyq.me/scholar" target="_blank">Yongqing Liang</a>,
-                    <a href="https://yzmblog.github.io/" target="_blank">Zhengming Yu</a>,
-                    <a href="https://evergreen0929.github.io/" target="_blank"><b>Jingdong Zhang</b></a>,
-                    <a href="https://scholar.google.com/citations?user=ldanjkUAAAAJ&hl=en" target="_blank">Yi Xu</a>,
-                    <a href="https://people.engr.tamu.edu/schaefer/index.html" target="_blank">Scott Schaefer</a>,
-	            <a href="https://people.tamu.edu/~xinli/" target="_blank">Xin Li</a>,
-		    <a href="https://scholar.google.com/citations?user=28shvv0AAAAJ&hl=en" target="_blank">Wenping Wang</a>
+                    <b>
+                        <a href="https://ieeexplore.ieee.org/document/10636762" target="_blank">
+                            <font color="black"> HSDF: Hybrid Sign and Distance Field for Nueral Representation of Surfaces with Arbitrary Topologies.</font></a>
+                    </b><br>
+                    Li Wang,
+                    <a href="https://lagwein-who.github.io/" target="_blank"><b>Yu-Tao Liu</b></a>,
+                    <a href="http://people.geometrylearning.com/~jieyang/" target="_blank">Jie Yang</a>,
+                    <a href="https://chenweikai.github.io/" target="_blank">Weikai Chen</a>,
+                    <a href="https://xmeng525.github.io/xiaoxumeng.github.io/" target="_blank">Xiaoxu Meng</a>,
+                    <a href="https://sites.google.com/site/boyanghome/home" target="_blank">Bo Yang</a>,
+                    Jintao Li,
+                    <a href="http://geometrylearning.com/lin/" target="_blank">Lin Gao</a>
                     <br>
                     <b>
-                        <font color="black"> SolidGS: Consolidating Gaussian Surfel Splatting for Sparse-View Surface Reconstruction </font>
-                    </b><br>
-                    Arxiv, 2024 &nbsp&nbsp  [<a href="https://arxiv.org/abs/2412.15400" target="_blank"> <i>arxiv</i> </a>]  &nbsp&nbsp 
-                    [<a href="https://mickshen7558.github.io/projects/SolidGS/" target="_blank"> <i>project</i> </a>]<br>
-			    <i><b>Abstract:</b> We present SolidGS, which reconstructs a consolidated Gaussian field from sparse inputs. Given only three input views, 
-                    our approach enables high-precision and detailed mesh extraction, and high-quality novel view synthesis, achieved within just three minutes.</i>
+                        TVCG 2024
+                    </b>
+                    <br>
+                    <a class="clamp-text">
+                        We present a novel neural implicit representation coded HSDF, which is a hybrid of signed and unsigned distance fields.
+                        In particular, HSDF is able to represent arbitrary topologies containing both closed and open surfaces while being compatible with existing iso-surface extraction techniques for easy field-to-mesh conversion.
+                        In addition to predicting a UDF, we propose to learn an additional sign field.
+                    </a>
                 </div>
             </div>
 
-	    <hr>
+            <hr>
             <div class="row">
                 <div class="col-md-3">
-                    <img class="img-fluid img-rounded" src="cvpr2024.png" alt="">
+                    <img class="img-fluid img-rounded" src="neudf.jpg" alt="NeUDF Thumbnail">
                 </div>
                 <div class="col-md-9">
-                    <a href="https://evergreen0929.github.io/" target="_blank"><b>Jingdong Zhang</b></a>,
-                    <a href="https://sites.google.com/site/yhrspace/" target="_blank">Hanrong Ye</a>,
-		    <a href="https://people.tamu.edu/~xinli/" target="_blank">Xin Li</a>,
-		    <a href="https://scholar.google.com/citations?user=28shvv0AAAAJ&hl=en" target="_blank">Wenping Wang</a>,
-                    <a href="https://www.danxurgb.net/" target="_blank">Dan Xu</a>
+                    <b>
+                        <a href="https://ieeexplore.ieee.org/document/10330070" target="_blank">
+                            <font color="black"> NeUDF: Learning Neural Unsigned Distance Fields with Volume Rendering.</font></a>
+                    </b><br>
+                    <a href="https://lagwein-who.github.io/" target="_blank"><b>Yu-Tao Liu</b></a>,
+                    Li Wang,
+                    <a href="http://people.geometrylearning.com/~jieyang/" target="_blank">Jie Yang</a>,
+                    <a href="https://chenweikai.github.io/" target="_blank">Weikai Chen</a>,
+                    <a href="https://xmeng525.github.io/xiaoxumeng.github.io/" target="_blank">Xiaoxu Meng</a>,
+                    <a href="https://sites.google.com/site/boyanghome/home" target="_blank">Bo Yang</a>,
+                    <a href="http://geometrylearning.com/lin/" target="_blank">Lin Gao</a>
                     <br>
                     <b>
-                        <font color="black"> Multi-Task Label Discovery via Hierarchical Task Tokens for Partially Annotated Dense Predictions </font>
-                    </b><br>
-                    <b><a href="https://acmmm2025.org/" target="_blank">ACMMM (ACM MultiMedia)</a></b>, 2025 &nbsp&nbsp 
-                    [<a href="https://arxiv.org/abs/2411.18823" target="_blank"> <i>arxiv</i> </a>]
-			&nbsp&nbsp [<a href="https://github.com/Evergreen0929/EEMTL"> <i>code</i> </a>]<br>
-			    <i><b>Abstract:</b> This research proposes a new approach to multi-task dense predictions with partially labeled data. We introduce hierarchical task tokens 
-				 (HiTTs) to capture multi-level representations. The global task tokens conduct cross-task interactions and transfer 
-				 knowledge from labeled to unlabeled tasks, while the fine-grained task tokens form high-quality task predictions at a finer granularity.</i>
-                </div>
-            </div>
-	    <hr>
-	    
-	        <div class="row">
-                <div class="col-md-3">
-                    <img class="img-fluid img-rounded" src="pami.png" alt="">
-                </div>
-                <div class="col-md-9">
-                    <a href="https://evergreen0929.github.io/" target="_blank"><b>Jingdong Zhang</b></a>,
-		            <a href="https://scholar.google.com/citations?hl=zh-CN&user=gsLd2ccAAAAJ" target="_blank">Jiayuan Fan</a>,
-                    <a href="https://scholar.google.com/citations?user=UEZZP5QAAAAJ&hl=en&oi=sra" target="_blank">Peng
-                        Ye</a>,
-                    <a href="https://openreview.net/profile?id=~Bo_Zhang17" target="_blank">Bo Zhang</a>,
-                    <a href="https://openreview.net/profile?id=~Hancheng_Ye1" target="_blank">Hancheng Ye</a>,
-                    <a href="https://scholar.google.com/citations?user=OOY-4CwAAAAJ&hl=en" target="_blank">Baopu Li</a>,
-                    <a href="https://caiyancheng.github.io/" target="_blank">Yancheng Cai</a>,
-                    <a href="http://www.it.fudan.edu.cn/En/Data/View/3012" target="_blank">Tao Chen</a>
+                        TPAMI 2023 (Extended journal version)
+                    </b>
                     <br>
-                    <b>
-                        <font color="black"> BridgeNet: Comprehensive and Effective Feature Interactions via Bridge Feature for Multi-task Dense Predictions</font>
-                    </b><br>
-                    <b> <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34" target="_blank">TPAMI (IEEE
-                            Transactions on Pattern Analysis and Machine Intelligence)</a></b>, 2025 &nbsp&nbsp 
-			    [<a href="https://ieeexplore.ieee.org/abstract/document/10870147" target="_blank"> <i>paper</i> </a>]
-			    &nbsp&nbsp [<a href="https://github.com/Evergreen0929/EEMTL"> <i>code</i> </a>]<br>
-                    <i><b>Abstract:</b> This work introduces a novel BridgeNet for multi-task learning on dense predictions. 
-			    It uses a Bridge Feature Extractor (BFE) to create strong bridge features and a Task Pattern Propagation (TPP) to solve the task-pattern entanglement issue, 
-			    which results in task-specific features with higher quality and discriminative task representations. 
-			    A Task-Feature Refiner (TFR) is then used to refine the final task predictions.</i>
+                    <a class="clamp-text">
+                        We introduce a new neural rendering framework, coded NeUDF, that can reconstruct surfaces with arbitrary topologies solely from multi-view supervision.
+                        To gain the flexibility of representing arbitrary surfaces, NeUDF leverages the unsigned distance function (UDF) as surface representation. 
+                        While a naive extension of SDF-based neural renderer cannot scale to UDF, we formalize the rules of neural volume rendering for open surface reconstruction (\emph{e.g.} self-consistent, unbiased, occlusion-aware),
+                    </a>
                 </div>
             </div>
-        <hr>
 
+            <hr>
             <div class="row">
                 <div class="col-md-3">
-                    <img class="img-fluid img-rounded" src="tip.png" alt="">
+                    <img class="img-fluid img-rounded" src="neudf.jpg" alt="NeUDF CVPR Thumbnail">
                 </div>
                 <div class="col-md-9">
-                    <a href="https://caiyancheng.github.io/" target="_blank">Yancheng Cai</a>,
-                    <a href="https://openreview.net/profile?id=~Bo_Zhang17" target="_blank">Bo Zhang</a>,
-                    <a href="https://scholar.google.com/citations?user=OOY-4CwAAAAJ&hl=en" target="_blank">Baopu Li</a>,
-                    <a href="http://www.it.fudan.edu.cn/En/Data/View/3012" target="_blank">Tao Chen</a>,
-                    <a href="https://scholar.google.com/citations?user=Obo7-bIAAAAJ&hl=en" target="_blank">Hongliang Yan</a>,
-                    <a href="https://evergreen0929.github.io/" target="_blank"><b>Jingdong Zhang</b></a>,
-                    Jiahao Xu
+                    <b>
+                        <a href="https://arxiv.org/abs/2304.10080" target="_blank">
+                            <font color="black"> NeUDF: Leaning Neural Unsigned Distance Fields with Volume Rendering.</font></a>
+                    </b><br>
+                    <a href="https://lagwein-who.github.io/" target="_blank"><b>Yu-Tao Liu</b></a>,
+                    Li Wang,
+                    <a href="http://people.geometrylearning.com/~jieyang/" target="_blank">Jie Yang</a>,
+                    <a href="https://chenweikai.github.io/" target="_blank">Weikai Chen</a>,
+                    <a href="https://xmeng525.github.io/xiaoxumeng.github.io/" target="_blank">Xiaoxu Meng</a>,
+                    <a href="https://sites.google.com/site/boyanghome/home" target="_blank">Bo Yang</a>,
+                    <a href="http://geometrylearning.com/lin/" target="_blank">Lin Gao</a>
                     <br>
                     <b>
-                        <font color="black">Rethinking Cross-Domain Pedestrian Detection: A Background-Focused
-                            Distribution Alignment Framework for Instance-Free One-Stage Detectors
-                        </font>
-                    </b><br>
-                    <b><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83" target="_blank">TIP (IEEE
-                            Transactions on Image Processing)</a></b>, 2023 &nbsp&nbsp [<a href="https://ieeexplore.ieee.org/document/10231122"  
-			target="_blank"> <i>paper</i> </a>] &nbsp&nbsp [<a href="https://github.com/caiyancheng/BFDA"> <i>code</i> </a>] <br>
-                    <i><b>Abstract:</b> We introduce a new approach for cross-domain pedestrian one-stage detectors. The paper identifies 
-			    a foreground-background misalignment issue in image-level feature alignment, and a novel framework, Background-Focused 
-			    Distribution Alignment (BFDA) is proposed to address this issue.</i>
+                        CVPR 2023
+                    </b>
+                    <br>
+                    <a class="clamp-text">
+                        We introduce a new neural rendering framework, coded NeUDF, that can reconstruct surfaces with arbitrary topologies solely from multi-view supervision.
+                        To gain the flexibility of representing arbitrary surfaces, NeUDF leverages the unsigned distance function (UDF) as surface representation. 
+                        While a naive extension of SDF-based neural renderer cannot scale to UDF, we formalize the rules of neural volume rendering for open surface reconstruction (\emph{e.g.} self-consistent, unbiased, occlusion-aware),
+                    </a>
                 </div>
             </div>
+
+        
             <hr>
 
         </div>
     </div><br><br>
 
 
-    <!-- Research Experience -->
-    <div class="container">
-        <h3 id="Research Experience" style="padding-top: 80px; margin-top: -80px;">Research Experience</h3>
-        <ul>
-            <li>
-                Jun. 2023 - Present, Ph.D. student, Aggie Graphics Group, Texas A&M University<br>
-                Advisor: Prof. <a href="https://scholar.google.com/citations?user=28shvv0AAAAJ&hl=en" target="_blank">
-			Wenping Wang</a> and Prof. <a href="https://people.tamu.edu/~xinli/" target="_blank">Xin Li</a>
-            </li>
-	
-	    <li>
-                Feb. 2022 - Present, Research Assistant, HKUST<br>
-                Advisor: Prof. <a href="https://www.danxurgb.net/" target="_blank">Dan Xu</a>
-            </li>
-		
-            <li>
-                Jul. 2021 - Present, Research Assistant, Fudan Embedded Deep Learning and Visual Analysis Lab<br>
-                Advisor: Prof. <a href="http://www.it.fudan.edu.cn/En/Data/View/3012" target="_blank">Tao Chen</a> 
-		    and Prof. <a href="https://scholar.google.com/citations?hl=zh-CN&user=gsLd2ccAAAAJ" target="_blank">Jiayuan Fan</a>
-            </li>
-        </ul>
-    </div><br><br>
-
-
-    <!-- Award -->
-    <div class="container">
-        <h3 id="Award" style="padding-top: 80px; margin-top: -80px;">Selected Award</h3>
-        <ul>
-            <li>The third prize of outstanding Undergraduate Student Scholarship of Fudan University in 2021-2022 Academic year.</li>
-            <li>The second prize of outstanding Undergraduate Student Scholarship of Fudan University in 2019-2020 Academic year.</li>
-            <li>Outstanding Student of Fudan University in 2019-2020 Academic year.</li>
-	    <li>The first prize of Advanced Driving Assistance System (ADAS) National Competition by Dell Corporation, May 2021.</li>
-        </ul>
-	<!--
-	<hr>
-            <div class="row">
-                <div class="col-md-5">
-                    <img class="img-fluid img-rounded" src="dell.png" alt="">
-                </div>
-                <div class="col-md-7">
-		    <ul>
-			<li><font color="black">The <b>first prize</b> of Advanced Driving Assistance System (ADAS) National Competition by Dell Corporation, 
-				May 2021.</font>
-                        <li>I am the team leader.
-	 	    <ul>
-                </div>
-            </div>
-	    <hr>
-	-->
-    </div><br><br>
-
-
-    <!-- Academic Service -->
-    <div class="container">
-        <h3 id="Academic Service" style="padding-top: 80px; margin-top: -80px;">Academic Service</h3>
-        <ul>
-            <li>Reviewer for: <br>
-		    CVPR: 2022-2024, <br>
-		    ECCV: 2022, <br>
-		    ICRA: 2024 <br>
-		    Pacific Graphics: 2024 <br>
-        </ul>
-    </div><br>
 
 	<!-- Miscellaneous -->
     <div class="container">
 		<h3 id="Miscellaneous" style="padding-top: 80px; margin-top: -80px;">
             Miscellaneous
         </h3>
-		<ul>
-			<li>I love photography and road trips.</li>
-		</ul>
+
+        <!-- <hr> -->
+
+        <p>
+        <b>
+            -Do not commit evil just because it is small; do not abandon good just because it is minor.
+        </b>
+        </p>
+        <!-- <hr> -->
+
+        <a class="less-important">
+        <p>
+        I went through a challenging period both physically and mentally toward the end of the COVID-19 era.
+        Whenever I was on the brink of losing faith in humanity, I would regain hope from my "eureka moments".
+        <!-- </p>
+        <p> -->
+        One of my favorite "eureka moment" came while watching </a><a class="less-important" href="https://www.youtube.com/watch?v=5KdE0p2joJw" target="_blank">this trailor</a><a class="less-important"> for Civilization 6, which later became my favorite game.
+        That moment convinced me that infinite possibilities exist for humanity to explore and uncover in the future, proving that our effort truly matters.
+        <!-- </p>
+        <p> -->
+        If you are currently going through a difficult time, I would recommend staying true to yourself.
+        If you believe in something good but know it will be hard to achieve, pursue it anyway, for that is what truly defines ourselves.
+        And, if you have any unique thoughts or inspirations to share, you're always welcome to drop me an email.
+        </p>
+        </a>
+
+        <!-- <hr> -->
+
         <center>
-		<hr>
-		<div class="col-md-10">
-		    <img class="img-fluid img-rounded" src="p1.jpg" alt="">
+		<div class="col-md-2">
+		    <img class="img-fluid img-rounded" src="longmaythesunshinesmall.jpg" alt="">
 		</div>
-		<i>TX, US</i>
-		
-		<hr>
-		<div class="col-md-10">
-		    <img class="img-fluid img-rounded" src="p2.jpg" alt="">
-		</div>
-		<i>Reflection Lake, Mount Rainier NP, WA, US</i>
-		
-		<hr>
-		<div class="col-md-10">
-		    <img class="img-fluid img-rounded" src="p3.jpg" alt="">
-		</div>
-		<i>AZ, US</i>
+        </center>
 
         <hr>
-		<div class="col-md-10">
-		    <img class="img-fluid img-rounded" src="p4.jpg" alt="">
-		</div>
-		<i>Petrified Forest NP, AZ, US</i>
-
-		<hr>
 		
             <footer>
-                <p>© Jingdong Zhang 2024</p>
+                <p>© Yu-Tao Liu 2025</p>
             </footer>
         </center>
     </div>
